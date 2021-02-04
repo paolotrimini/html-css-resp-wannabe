@@ -1,6 +1,6 @@
 /* regole media query */
 
-@media all and (max-width: 419px) {
+@media all and (max-width: 420px) {
 
     #lezioni .row>.left,
     #lezioni .row>.right {

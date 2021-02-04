@@ -1,0 +1,60 @@
+/* regole media query */
+
+/* mediaQ per tablet */
+
+@media all and (max-width: 768px){
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #steps .row, #why .row  {
+        padding: 10px 0;
+    }
+
+    .row {
+        max-width: 100%;
+    }
+
+}
+
+
+/* mediaQ per smartphone */
+
+@media all and (max-width: 420px) {
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    #steps .row, #why .row  {
+        padding: 10px 0;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        max-width: 100%;
+    }
+
+}
