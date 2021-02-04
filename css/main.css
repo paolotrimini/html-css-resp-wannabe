@@ -1,6 +1,6 @@
 /* regole media query */
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 419px) {
 
     #lezioni .row>.left,
     #lezioni .row>.right {
@@ -9,14 +9,8 @@
         margin-bottom: 20px;
     }
 
-    #steps .row  {
-        padding-top: 10px;
-        background-color: #f9f9f9;
-    }
-
-    #why .row  {
-        padding-top: 10px;
-        background-color: #f9f9f9;
+    #steps .row, #why .row  {
+        padding: 10px 0;
     }
 
     #steps .row>.left,
@@ -24,7 +18,11 @@
     #steps .row>.right {
         float: none;
         width: 100%;
+        margin-bottom: 20px;
     }
 
+    .row {
+        max-width: 419px;
+    }
 
 }
